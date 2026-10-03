@@ -1,0 +1,7 @@
+Finding: Session ID in URL Rewrite
+Target: Socket.IO polling endpoint
+Validation: Manual HTTP response inspection
+Observed: The response body contains a sid value.
+Assessment: A session identifier is returned by the Socket.IO handshake response.
+Limitation: The captured response does not demonstrate that the sid value is exposed in the URL.
+Note: Session exposure in the URL should not be claimed without additional evidence showing the identifier in the request URL.

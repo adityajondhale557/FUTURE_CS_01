@@ -1,0 +1,12 @@
+Nmap Assessment Summary
+
+Target: 127.0.0.1
+Host status: Up
+Port scanned: 3000/tcp
+Port state: Open
+Nmap service identification: Unrecognized (reported as ppp?)
+Application evidence: HTTP 200 OK response containing OWASP Juice Shop content
+Scan duration: 11.49 seconds
+
+Note:
+The "ppp?" label is Nmap's unrecognized-service classification and is not treated as a confirmed service identification.

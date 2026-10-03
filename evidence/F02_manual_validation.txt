@@ -1,0 +1,7 @@
+Finding: Cross-Domain Misconfiguration
+Target: http://127.0.0.1:3000/polyfills.js
+Validation: Manual HTTP header inspection
+Observed: HTTP/1.1 200 OK
+Observed: Access-Control-Allow-Origin: *
+Assessment: The polyfills.js response permits cross-origin requests from any origin.
+Note: The presence of a wildcard CORS header alone does not prove that sensitive data can be accessed cross-origin.

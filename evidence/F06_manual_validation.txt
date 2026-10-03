@@ -1,0 +1,7 @@
+Finding: Timestamp Disclosure - Unix
+Target: Endpoint identified by OWASP ZAP
+Validation: Manual inspection of ZAP evidence
+Observed: The response contains the Unix timestamp value 1666666667.
+Assessment: A Unix timestamp value is present in the application response.
+Limitation: The current evidence does not establish that the timestamp provides sensitive information or creates a meaningful security impact.
+Note: ZAP reported this finding with Low confidence.

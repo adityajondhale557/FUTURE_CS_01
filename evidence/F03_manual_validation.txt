@@ -1,0 +1,6 @@
+Finding: Missing Anti-clickjacking Header
+Target: Endpoint identified by OWASP ZAP
+Validation: Manual HTTP header inspection
+Observed: The root application response contains X-Frame-Options: SAMEORIGIN.
+Assessment: The ZAP alert appears to apply to a different application response/endpoint where the anti-clickjacking header was not present.
+Note: The finding should not be described as a site-wide absence of X-Frame-Options.

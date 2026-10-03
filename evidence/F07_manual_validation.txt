@@ -1,0 +1,7 @@
+Finding: X-Content-Type-Options Header Missing
+Target: Endpoint identified by OWASP ZAP
+Validation: Manual HTTP header inspection
+Observed: The root application response contains X-Content-Type-Options: nosniff.
+Observed: The Socket.IO polling response does not contain X-Content-Type-Options.
+Assessment: The security header is missing from at least one application response identified during testing.
+Note: The finding should not be described as a site-wide absence of X-Content-Type-Options.

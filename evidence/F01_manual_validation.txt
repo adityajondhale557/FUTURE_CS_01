@@ -1,0 +1,7 @@
+Finding: Content Security Policy (CSP) Header Not Set
+Target: http://127.0.0.1:3000/
+Validation: Manual HTTP header inspection
+Observed: HTTP/1.1 200 OK
+Observed: No Content-Security-Policy header in the root response
+Assessment: The root application response does not define a CSP header.
+Note: Missing CSP is a security hardening weakness and does not by itself prove XSS.

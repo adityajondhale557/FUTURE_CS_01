@@ -1,0 +1,7 @@
+Finding: Private IP Disclosure
+Target: /rest/admin/application-configuration
+Validation: Manual inspection of ZAP evidence
+Observed: The response contains the private IP address 192.168.99.100:3000.
+Assessment: The application discloses an internal/private network address in its response.
+Context: This is a local OWASP Juice Shop laboratory environment.
+Note: The impact should be considered environment-specific and should not automatically be treated as a production vulnerability.

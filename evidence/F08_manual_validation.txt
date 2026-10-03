@@ -1,0 +1,7 @@
+Finding: Information Disclosure - Suspicious Comments
+Target: http://127.0.0.1:3000/main.js
+Validation: Manual inspection of ZAP evidence
+Observed: ZAP identified the term "query" in the JavaScript resource.
+Assessment: The scanner identified a potentially interesting comment or source-code reference.
+Limitation: The current evidence does not demonstrate disclosure of sensitive information.
+Note: ZAP reported this finding with Low confidence and Informational risk.
